@@ -1,0 +1,30 @@
+{
+  "name": "HW11-NoteTaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "node": "^14.14.0",
+    "require": "^2.4.20",
+    "router": "^1.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carloz0321/HW11-NoteTaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carloz0321/HW11-NoteTaker/issues"
+  },
+  "homepage": "https://github.com/Carloz0321/HW11-NoteTaker#readme"
+}

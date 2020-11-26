@@ -9,7 +9,7 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
     const notesPost = req.body;
     notesPost.id = Math.random()
-    console.log(notePost);
+    console.log(notesPost);
 
     const notes = fs.readFileSync("./db/db.json", "utf8")
     const notesArray = JSON.parse(notes);
