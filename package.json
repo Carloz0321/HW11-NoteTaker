@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Carloz0321/HW11-NoteTaker/issues"
   },
-  "homepage": "https://github.com/Carloz0321/HW11-NoteTaker#readme"
+  "homepage": "https://github.com/Carloz0321/HW11-NoteTaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
